@@ -1,0 +1,122 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.Titan-Error{
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.5em;
+	color: red;
+	background: #fff;
+	padding: 15px;
+	text-align: center;
+}
+
+.Titan-Search{
+	width: 100%;
+	margin: 1.5em 0 0 0
+}
+
+.Titan-Search form{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.Titan-Search form input{
+	width: 20%;
+	padding: 15px;
+	outline: none;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.1em;
+	border: 0;
+	background: #e6e6e6;
+}
+
+.Titan-Search form button{
+	border: 0;
+	padding: 18px;
+	font-size: 1.1em;
+	background: #e6e6e6;
+	color: #787575;
+}
+
+.wrapper{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 4em;
+	width: 71.4%;
+	margin: 4em auto;
+	padding: 0 .5em;
+}
+
+.Titan-InfoClient{
+	/*border: 1px solid red;*/
+	padding: 0 .5em;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 1em 0 1em 0
+}
+
+.Titan-InfoClient-Paragraph{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+	display: flex;
+	flex-direction: column;
+}
+
+.Titan-InfoClient-Paragraph span{
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5em;
+	font-weight: 500;
+	margin-bottom: .5em
+}
+
+.Titan-ContactPerson{
+	/*border: 1px solid red;*/
+	margin: 1em 0 1em 0;
+	padding: 0 .5em;
+}
+
+.Titan-ContactPerson ul li{
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+}
+
+.Titan-ContactPerson ul li a{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-size: 1.3em;
+	margin-bottom: .5em
+}
+
+.Titan-DescriptionClient{
+	/*border: 1px solid red;*/
+	margin: 1em 0 1em;
+	padding: 0 .5em;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 71.4%;
+	margin: 0 auto;
+}
+
+.Titan-ContactPerson-Description{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid antiquewhite;
+	padding: 15px;
+}
+
+.Titan-ContactPerson-Description span{
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5em;
+	font-weight: 500;
+	margin-bottom: .5em;
+}

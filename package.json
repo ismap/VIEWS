@@ -1,0 +1,22 @@
+{
+  "name": "medsapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ismap/VIEWS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ismap/VIEWS/issues"
+  },
+  "homepage": "https://github.com/ismap/VIEWS#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
