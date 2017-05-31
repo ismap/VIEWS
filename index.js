@@ -11,5 +11,5 @@ app.get('/', function(request, response){
 
 
 app.listen(port, function(){
- 	console.log('server express ready Yeah');
+ 	console.log('server express ready in' + ' ' + port);
 });
