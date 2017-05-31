@@ -1,6 +1,7 @@
 var express = require('express');
 var app = express();
 
+var port = process.env.PORT || 8080
 
 app.use(express.static(__dirname + '/public'));
 
@@ -9,6 +10,6 @@ app.get('/', function(request, response){
 });
 
 
-app.listen(3000, function(){
+app.listen(port, function(){
  	console.log('server express ready Yeah');
 });
